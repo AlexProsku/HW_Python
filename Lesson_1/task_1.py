@@ -1,0 +1,5 @@
+number = int(input("Введите целое число"))
+decimal = float(input("Введите десятичное число"))
+line_1 = input("Введите строку 1")
+line_2 = input("Введите строку 2")
+print("Были введены следующие числа: ", number, " и ", decimal)
