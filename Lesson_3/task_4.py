@@ -9,13 +9,17 @@ def my_func_simple(x, y):
 
 
 def my_func_hard(x, y):
-    y = abs(y)          # берём по модулю для использования в цикле с отрицательной степенью
     exp = 1
-    for i in range(y):
+    for i in range(abs(y)):
         exp *= x
-    return 1 / exp
+    if y < 0:
+        return 1 / exp
+    elif y > 0:
+        return exp
+    else:
+        return 1
 
 
-arg_x, arg_y = 0.5, -3
-print(f"Результат простой функции = {my_func_hard(arg_x, arg_y)}")
-print(f"Результат более сложной функции = {my_func_simple(arg_x, arg_y)}")
+arg_x, exponent = 2, -3
+print(f"Результат простой функции = {my_func_simple(arg_x, exponent)}")
+print(f"Результат более сложной функции = {my_func_hard(arg_x, exponent)}")
