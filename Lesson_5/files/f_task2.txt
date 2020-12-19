@@ -1,0 +1,5 @@
+To improve my understanding of the Python programming language, I wanted to provide a brief account of its history and the present state of the language.
+
+Python was originally conceptualized by Guido van Rossum in the late 1980s as a member of the National Research Institute of Mathematics and Computer Science. Initially, it was designed as a response to the ABC programming language that was also foregrounded in the Netherlands.
+Among the main features of Python compared to the ABC language was that Python had exception handling and was targeted for the Amoeba operating system (go Python!).
+Fun fact. Python is not named after the snake. It’s named after the British TV show Monty Python.
